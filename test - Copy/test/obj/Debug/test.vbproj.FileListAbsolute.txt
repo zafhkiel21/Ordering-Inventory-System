@@ -1,0 +1,13 @@
+C:\Users\togibels\Documents\Visual Studio Projects\test\test\bin\Debug\test.exe.config
+C:\Users\togibels\Documents\Visual Studio Projects\test\test\bin\Debug\test.exe
+C:\Users\togibels\Documents\Visual Studio Projects\test\test\bin\Debug\test.pdb
+C:\Users\togibels\Documents\Visual Studio Projects\test\test\bin\Debug\test.xml
+C:\Users\togibels\Documents\Visual Studio Projects\test\test\obj\Debug\test.vbproj.AssemblyReference.cache
+C:\Users\togibels\Documents\Visual Studio Projects\test\test\obj\Debug\test.Form1.resources
+C:\Users\togibels\Documents\Visual Studio Projects\test\test\obj\Debug\test.Resources.resources
+C:\Users\togibels\Documents\Visual Studio Projects\test\test\obj\Debug\test.vbproj.GenerateResource.cache
+C:\Users\togibels\Documents\Visual Studio Projects\test\test\obj\Debug\test.vbproj.CoreCompileInputs.cache
+C:\Users\togibels\Documents\Visual Studio Projects\test\test\obj\Debug\test.exe
+C:\Users\togibels\Documents\Visual Studio Projects\test\test\obj\Debug\test.xml
+C:\Users\togibels\Documents\Visual Studio Projects\test\test\obj\Debug\test.pdb
+C:\Users\togibels\Documents\Visual Studio Projects\test\test\obj\Debug\test.Form2.resources

@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\togibels\\Documents\\Visual Studio Projects\\test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EC4FD3F-F4EC-4D45-8F93-AF78672406A9}|test\\test.vbproj|c:\\users\\togibels\\documents\\visual studio projects\\test\\test\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{4EC4FD3F-F4EC-4D45-8F93-AF78672406A9}|test\\test.vbproj|solutionrelative:test\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EC4FD3F-F4EC-4D45-8F93-AF78672406A9}|test\\test.vbproj|C:\\Users\\togibels\\Documents\\Visual Studio Projects\\test\\test\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4EC4FD3F-F4EC-4D45-8F93-AF78672406A9}|test\\test.vbproj|solutionrelative:test\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EC4FD3F-F4EC-4D45-8F93-AF78672406A9}|test\\test.vbproj|C:\\Users\\togibels\\Documents\\Visual Studio Projects\\test\\test\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{4EC4FD3F-F4EC-4D45-8F93-AF78672406A9}|test\\test.vbproj|solutionrelative:test\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EC4FD3F-F4EC-4D45-8F93-AF78672406A9}|test\\test.vbproj|C:\\Users\\togibels\\Documents\\Visual Studio Projects\\test\\test\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4EC4FD3F-F4EC-4D45-8F93-AF78672406A9}|test\\test.vbproj|solutionrelative:test\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\togibels\\Documents\\Visual Studio Projects\\test\\test\\Form1.vb",
+              "RelativeDocumentMoniker": "test\\Form1.vb",
+              "ToolTip": "C:\\Users\\togibels\\Documents\\Visual Studio Projects\\test\\test\\Form1.vb",
+              "RelativeToolTip": "test\\Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-03T04:13:31.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\togibels\\Documents\\Visual Studio Projects\\test\\test\\Form1.vb",
+              "RelativeDocumentMoniker": "test\\Form1.vb",
+              "ToolTip": "C:\\Users\\togibels\\Documents\\Visual Studio Projects\\test\\test\\Form1.vb [Design]",
+              "RelativeToolTip": "test\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-03T07:26:04.785Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form2.vb",
+              "DocumentMoniker": "C:\\Users\\togibels\\Documents\\Visual Studio Projects\\test\\test\\Form2.vb",
+              "RelativeDocumentMoniker": "test\\Form2.vb",
+              "ToolTip": "C:\\Users\\togibels\\Documents\\Visual Studio Projects\\test\\test\\Form2.vb*",
+              "RelativeToolTip": "test\\Form2.vb*",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-03T05:08:13.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\togibels\\Documents\\Visual Studio Projects\\test\\test\\Form2.vb",
+              "RelativeDocumentMoniker": "test\\Form2.vb",
+              "ToolTip": "C:\\Users\\togibels\\Documents\\Visual Studio Projects\\test\\test\\Form2.vb [Design]*",
+              "RelativeToolTip": "test\\Form2.vb [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-04-03T04:53:32.951Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
