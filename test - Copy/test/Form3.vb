@@ -1,11 +1,11 @@
 ﻿Imports System.Data.OleDb
 Imports System.IO
 
-Public Class Form2
+Public Class Form3
     Dim conn As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" & Application.StartupPath & "\test1.accdb")
     Dim dr As OleDbDataReader
     Dim i As Integer
-    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Try
             conn.Open()
             lbl_connection.Text = "DONE"
@@ -24,10 +24,10 @@ Public Class Form2
         Try
             DataGridView1.Rows.Clear()
             conn.Open()
-            Dim cmd As New OleDb.OleDbCommand("Select * from Rtbl", conn)
+            Dim cmd As New OleDb.OleDbCommand("Select * from Otbl", conn)
             dr = cmd.ExecuteReader
             While dr.Read
-                DataGridView1.Rows.Add(dr.Item("Received"), dr.Item("DateRcv"))
+                DataGridView1.Rows.Add(dr.Item("OrderID"), dr.Item("OrderAmount"), dr.Item("Date"))
             End While
             dr.Close()
         Catch ex As Exception
@@ -44,10 +44,10 @@ Public Class Form2
         Try
             conn.Open()
             If MsgBox("Are you want to add this?", vbQuestion + vbYesNo) = vbYes Then
-                Dim sql As String = "Insert into Rtbl (Received) values (@Received)"
+                Dim sql As String = "Insert into Otbl (OrderAmount) values (@OrderAmount)"
                 Dim cmd As New OleDb.OleDbCommand(sql, conn)
                 cmd.Parameters.Clear()
-                cmd.Parameters.AddWithValue("@Received", txt_rcv.Text)
+                cmd.Parameters.AddWithValue("@OrderAmount", txt_rcv.Text)
                 i = cmd.ExecuteNonQuery
                 If i > 0 Then
                     MsgBox("Successful Record", vbInformation)
@@ -66,37 +66,5 @@ Public Class Form2
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         save()
-    End Sub
-
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
-
-    End Sub
-
-    Private Sub btn_delete_Click(sender As Object, e As EventArgs) Handles btn_delete.Click
-
-    End Sub
-
-    Private Sub btn_update_Click(sender As Object, e As EventArgs) Handles btn_update.Click
-
-    End Sub
-
-    Private Sub lbl_connection_Click(sender As Object, e As EventArgs) Handles lbl_connection.Click
-
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
-    End Sub
-
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
-
-    End Sub
-
-    Private Sub txt_rcv_TextChanged(sender As Object, e As EventArgs) Handles txt_rcv.TextChanged
-
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
     End Sub
 End Class
